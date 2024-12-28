@@ -61,11 +61,7 @@ const itemVariants = {
     transition: {
       duration: 0.5
     }
-  }
-};
-
-const cardVariants = {
-  initial: { scale: 1 },
+  },
   hover: { 
     scale: 1.05,
     transition: {
@@ -101,7 +97,6 @@ export const Skills = () => {
                 key={index}
                 variants={itemVariants}
                 whileHover="hover"
-                variants={cardVariants}
                 className="p-6 rounded-lg bg-white hover:bg-muted transition-colors duration-300 shadow-lg hover:shadow-xl"
               >
                 <motion.div 
