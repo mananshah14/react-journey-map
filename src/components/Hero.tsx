@@ -11,14 +11,27 @@ export const Hero = () => {
           className="lg:w-1/2"
         >
           <h1 className="text-4xl md:text-6xl font-display font-bold mb-6">
-            Hi, I'm <span className="text-primary">John Doe</span>
+            Hi, I'm <span className="text-primary">Manan Shah</span>
           </h1>
-          <p className="text-xl md:text-2xl text-gray-600 mb-8">
-            Full Stack Developer & UI/UX Enthusiast
+          <p className="text-xl md:text-2xl text-gray-600 mb-4">
+            Senior DevOps Engineer
           </p>
-          <button className="bg-primary text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors">
-            View My Work
-          </button>
+          <p className="text-lg text-gray-600 mb-8">
+            Based in Bangalore, India | mananbshah1@gmail.com
+          </p>
+          <div className="flex gap-4">
+            <a 
+              href="https://www.linkedin.com/in/manan-shah" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="bg-primary text-white px-8 py-3 rounded-lg hover:bg-primary/90 transition-colors"
+            >
+              LinkedIn Profile
+            </a>
+            <button className="border-2 border-primary text-primary px-8 py-3 rounded-lg hover:bg-primary/10 transition-colors">
+              Download CV
+            </button>
+          </div>
         </motion.div>
         <motion.div 
           initial={{ opacity: 0 }}
