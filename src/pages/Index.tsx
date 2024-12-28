@@ -3,6 +3,7 @@ import { Experience } from "@/components/Experience";
 import { Skills } from "@/components/Skills";
 import { Certifications } from "@/components/Certifications";
 import { Navigation } from "@/components/Navigation";
+import { Mail } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Index = () => {
